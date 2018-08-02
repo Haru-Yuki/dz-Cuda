@@ -1,0 +1,56 @@
+.Team {
+  font-family: @font-base;
+  background: @bg-team;
+
+  &-container {
+    width: 1050px;
+    margin: @margin_center;
+  }
+
+  &-content {
+    padding-top: 102px;
+  }
+
+  &-contactsWrap{
+    padding-bottom: 118px;
+    padding-top: 36px;
+  }
+
+  &-contacts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-contactsPerson {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  &-contactsPersonInfo {
+
+    &Name {
+      text-transform: @text-upper;
+      font-weight: bold;
+      color: @team-name;
+      font-size: 24px;
+      padding-top: 32px;
+    }
+
+    &Position {
+      font-size: 16px;
+      color: @team-position;
+      padding-bottom: 17px;
+    }
+
+    &Bio {
+      max-width: 205px;
+      padding-bottom: 32px;
+    }
+  }
+
+  &-contactsPersonSocialsIcon {
+    padding: 0 6px;
+  }
+}

@@ -1,0 +1,339 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+fieldset,
+form,
+menu,
+select,
+textarea,
+input,
+button,
+optgroup {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  background-color: transparent;
+}
+img,
+input,
+button {
+  border: 0;
+}
+input {
+  border-radius: 0;
+}
+input,
+textarea,
+select,
+button,
+a:active,
+a:hover {
+  outline: 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  -webkit-appearance: none;
+}
+input[type="submit"],
+button {
+  cursor: pointer;
+}
+input[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+td,
+th {
+  padding: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+main {
+  display: block;
+}
+.Welcome {
+  background: #87509c;
+}
+.Welcome-container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.Welcome-content {
+  padding-top: 77px;
+  padding-bottom: 100px;
+  line-heihgt: 200%;
+}
+.Welcome-buttonContainer {
+  padding-top: 58px;
+  padding-bottom: 45px;
+}
+.Header {
+  height: 154px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.Header-logo {
+  padding: 0 62px;
+}
+.Header-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 440px;
+  margin-right: 38px;
+}
+.Header-navItem {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  width: auto;
+  padding: 5px 10px;
+}
+.Header-navItem:hover {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.Header-navItem.isActive {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 5px 17px;
+  box-sizing: border-box;
+}
+.Header-navItemLink {
+  letter-spacing: 0.3px;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}
+.Title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+  text-align: center;
+}
+.Title-line {
+  display: inline-block;
+}
+.Title--small {
+  font-size: 18px;
+  font-weight: normal;
+  max-width: 618px;
+  letter-spacing: 0.6px;
+}
+.Title--services {
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 1.444;
+}
+.Title--team {
+  text-transform: uppercase;
+  font-size: 41.29px;
+  letter-spacing: 3.3px;
+  color: #3c4761;
+}
+.Title--teamSmall {
+  padding-top: 2px;
+  color: #3c4761;
+  font-size: 18.58px;
+  font-weight: normal;
+  letter-spacing: 0.3px;
+}
+.Button {
+  color: #ffffff;
+  background: #eb7d4b;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  padding: 26px 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 293px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.Button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  height: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+html,
+body {
+  height: 100%;
+}
+.u-fullWidth {
+  width: 100%;
+}
+.u-lineHeight {
+  line-height: 1.1;
+}
+.u-fixedImageSize {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.Services {
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  background: #17c2a4;
+}
+.Services-container {
+  width: 1025px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.Services-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 105px;
+}
+.Services-line {
+  display: inline-block;
+}
+.Services-catalog {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding-top: 76px;
+  padding-bottom: 128px;
+}
+.Services-catalogItem {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.Services-catalogItemText {
+  text-align: center;
+  max-width: 190px;
+}
+.Services-catalogItemHeader {
+  padding-top: 46px;
+  padding-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+.Services-imageWrap {
+  height: 135px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.Services-images {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.Line {
+  background-color: #000000;
+  opacity: 0.149;
+  width: 86px;
+  height: 3.5px;
+  margin: 0 auto;
+  margin-top: 7px;
+  margin-bottom: 16px;
+}
+.Team {
+  font-family: 'Titillium Web', sans-serif;
+  background: #e7f1f8;
+}
+.Team-container {
+  width: 1050px;
+  margin: 0 auto;
+}
+.Team-content {
+  padding-top: 102px;
+}
+.Team-contactsWrap {
+  padding-bottom: 118px;
+  padding-top: 36px;
+}
+.Team-contacts {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.Team-contactsPerson {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+}
+.Team-contactsPersonInfoName {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #27283d;
+  font-size: 24px;
+  padding-top: 32px;
+}
+.Team-contactsPersonInfoPosition {
+  font-size: 16px;
+  color: #30bae7;
+  padding-bottom: 17px;
+}
+.Team-contactsPersonInfoBio {
+  max-width: 205px;
+  padding-bottom: 32px;
+}
+.Team-contactsPersonSocialsIcon {
+  padding: 0 6px;
+}

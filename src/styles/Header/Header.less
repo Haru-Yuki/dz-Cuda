@@ -1,0 +1,47 @@
+.Header {
+  font-family: @font-base;
+  font-size: @font-size-base;
+  height: 154px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-logo {
+    padding: 0 62px;
+  }
+
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    margin-right: 38px;
+  }
+
+  &-navItem {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 5px 10px;
+
+    &:hover {
+      background: @header-hover;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    &.isActive {
+      background: @header-hover;
+      border-radius: 5px;
+      padding: 5px 17px;
+      box-sizing: border-box;
+    }
+  }
+
+  &-navItemLink {
+    letter-spacing: 0.3px;
+    display: block;
+    color: @base-color;
+    text-decoration: none;
+    text-transform: @text-upper;
+  }
+}

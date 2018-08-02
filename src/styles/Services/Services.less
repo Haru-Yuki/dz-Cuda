@@ -1,0 +1,59 @@
+.Services {
+  font-family: @font-base;
+  color: @color-base;
+  background: @bg-services;
+
+  &-container {
+    width: 1025px;
+    margin: @margin_center;
+    padding: 0 20px;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 105px;
+  }
+
+  &-line {
+    display: inline-block;
+  }
+
+  &-catalog {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 76px;
+    padding-bottom: 128px;
+  }
+
+  &-catalogItem {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-catalogItemText {
+    text-align: center;
+    max-width: 190px;
+  }
+
+  &-catalogItemHeader {
+    padding-top: 46px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-transform: @text-upper;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  &-imageWrap {
+    height: 135px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &-images {
+    display: flex;
+    justify-content: space-between;
+  }
+}

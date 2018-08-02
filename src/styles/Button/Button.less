@@ -1,0 +1,29 @@
+.Button {
+  color: #ffffff;
+  background: #eb7d4b;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  padding: 26px 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 293px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    height: 4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
