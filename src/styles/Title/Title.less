@@ -16,14 +16,14 @@
   }
 
   &--services {
-    text-transform: uppercase;
+    text-transform: @text-upper;
     font-size: 40px;
     letter-spacing: 4px;
     line-height: 1.444;
   }
 
   &--team {
-    text-transform: uppercase;
+    text-transform: @text-upper;
     font-size: 41.29px;
     letter-spacing: 3.3px;
     color: #3c4761;
@@ -36,4 +36,22 @@
     font-weight: normal;
     letter-spacing: 0.3px;
   }
+
+  &--portfolio {
+    text-transform: @text-upper;
+    font-weight: bold;
+    font-size: 40px;
+    color: @portfolio-main;
+    letter-spacing: 4px;
+    padding-left: 5px;
+  }
+
+  &--portfolioSmall {
+    font-weight: normal;
+    font-size: 18px;
+    color: @portfolio-main;
+    max-width: 550px;
+    letter-spacing: 0.3px;
+  }
+
 }

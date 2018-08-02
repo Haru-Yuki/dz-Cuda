@@ -96,6 +96,8 @@ main {
   padding-bottom: 45px;
 }
 .Header {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
   height: 154px;
   display: -ms-flexbox;
   display: flex;
@@ -140,8 +142,6 @@ main {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 16px;
 }
 .Title {
   font-family: 'Titillium Web', sans-serif;
@@ -177,6 +177,21 @@ main {
   font-weight: normal;
   letter-spacing: 0.3px;
 }
+.Title--portfolio {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: #393939;
+  letter-spacing: 4px;
+  padding-left: 5px;
+}
+.Title--portfolioSmall {
+  font-weight: normal;
+  font-size: 18px;
+  color: #393939;
+  max-width: 550px;
+  letter-spacing: 0.3px;
+}
 .Button {
   color: #ffffff;
   background: #eb7d4b;
@@ -195,6 +210,20 @@ main {
   overflow: hidden;
 }
 .Button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  height: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.Button--portfolio {
+  background: #17c2a4;
+}
+.Button--portfolio::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -336,4 +365,86 @@ body {
 }
 .Team-contactsPersonSocialsIcon {
   padding: 0 6px;
+}
+.Portfolio {
+  background: #ffdd99;
+  font-family: 'Titillium Web', sans-serif;
+}
+.Portfolio-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.Portfolio-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 103px;
+  padding-bottom: 39px;
+}
+.Portfolio-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 380px;
+  margin: 0 auto;
+}
+.Portfolio-navItem {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-right: 10px;
+  width: 84px;
+  height: 38px;
+  background: #ebc985;
+  border-radius: 5px;
+  text-align: center;
+}
+.Portfolio-navItem:hover {
+  background: #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.Portfolio-navItem.isActive {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 84px;
+  height: 38px;
+  box-sizing: border-box;
+}
+.Portfolio-navItemLink {
+  margin: 0 auto;
+  letter-spacing: 0.3px;
+  display: block;
+  font-size: 18px;
+  color: #393939;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.Portfolio-contentList {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  text-align: center;
+}
+.Portfolio-contentListItem {
+  padding-top: 62px;
+}
+.Portfolio-contentListItemInfo {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-top: 19px;
+}
+.Portfolio-contentButton {
+  padding-bottom: 97px;
+  padding-top: 85px;
 }
