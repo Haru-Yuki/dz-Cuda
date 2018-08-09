@@ -192,6 +192,26 @@ main {
   max-width: 550px;
   letter-spacing: 0.3px;
 }
+.Title--testimonials {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+.Title--testimonialsSmall {
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+.Title--getInTouch {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.Title--getInTouchSmall {
+  font-size: 18px;
+  font-weight: normal;
+}
 .Button {
   color: #ffffff;
   background: #eb7d4b;
@@ -224,6 +244,20 @@ main {
   background: #17c2a4;
 }
 .Button--portfolio::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  height: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.Button--getInTouch {
+  background: #30bae7;
+}
+.Button--getInTouch::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -347,6 +381,20 @@ body {
   text-align: center;
   padding-top: 40px;
 }
+.Team-contactsPersonSocials {
+  margin: 0 auto;
+  width: 162px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.Team-contactsPersonSocials--width120 {
+  width: 120px;
+}
+.Team-contactsPersonSocialsLinks {
+  text-decoration: none;
+}
 .Team-contactsPersonInfoName {
   text-transform: uppercase;
   font-weight: bold;
@@ -362,9 +410,6 @@ body {
 .Team-contactsPersonInfoBio {
   max-width: 205px;
   padding-bottom: 32px;
-}
-.Team-contactsPersonSocialsIcon {
-  padding: 0 6px;
 }
 .Portfolio {
   background: #ffdd99;
@@ -445,6 +490,176 @@ body {
   padding-top: 19px;
 }
 .Portfolio-contentButton {
-  padding-bottom: 97px;
-  padding-top: 85px;
+  padding-bottom: 109px;
+  padding-top: 72px;
+}
+.Testimonials {
+  font-family: 'Titillium Web', sans-serif;
+  background: #d74680;
+  color: #ffffff;
+}
+.Testimonials-container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.Testimonials-info {
+  padding-top: 102px;
+  padding-bottom: 57px;
+}
+.Testimonials-contentList {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding-top: 9px;
+  margin-right: -15px;
+}
+.Testimonials-contentListItem {
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 129px;
+}
+.Testimonials-contentListImage {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.Testimonials-contentListItemContent {
+  padding-left: 48px;
+  max-width: 380px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+.Testimonials-contentListItemReview--maxWidth360 {
+  max-width: 360px;
+  padding-right: 20px;
+}
+.Testimonials-contentListItemReview {
+  font-size: 21px;
+  font-style: italic;
+}
+.Testimonials-contentListItemName {
+  padding-top: 18px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.Testimonials-contentListItemPosition {
+  font-size: 18px;
+  color: #ffdd99;
+}
+.GetInTouch {
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  background: #3c5499;
+}
+.GetInTouch-container {
+  width: 860px;
+  margin: 0 auto;
+}
+.GetInTouch-info {
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 75px;
+}
+.GetInTouch-registrationFormWrap {
+  width: 100%;
+}
+.GetInTouch-registrationForm {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 100%;
+}
+.GetInTouch-registrationFormName {
+  width: 390px;
+  height: 57px;
+  background: #273a71;
+  border-radius: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-registrationFormName:-ms-input-placeholder {
+  color: #ffffff;
+}
+.GetInTouch-registrationFormName::placeholder {
+  color: #ffffff;
+}
+.GetInTouch-registrationFormPassword {
+  width: 390px;
+  height: 57px;
+  background: #273a71;
+  border-radius: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding-left: 25px;
+}
+.GetInTouch-registrationFormPassword:-ms-input-placeholder {
+  color: #ffffff;
+}
+.GetInTouch-registrationFormPassword::placeholder {
+  color: #ffffff;
+}
+.GetInTouch-registrationFormText {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  margin-top: 27px;
+  background: #3c5499;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding-left: 25px;
+  padding-top: 17px;
+  resize: none;
+}
+.GetInTouch-registrationFormText:-ms-input-placeholder {
+  color: #ffffff;
+}
+.GetInTouch-registrationFormText::placeholder {
+  color: #ffffff;
+}
+.GetInTouch-registrationFormResizer {
+  position: absolute;
+  margin-top: 265px;
+  margin-left: 840px;
+}
+.GetInTouch-ButtonContainer {
+  padding-bottom: 115px;
+  padding-top: 60px;
+}
+.Footer {
+  background: #344b8e;
+  width: 100%;
+  height: 112px;
+}
+.Footer-socials {
+  width: 940px;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 0 auto;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.Footer-socialsItemLink {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+.Footer-socialsItemLink:hover {
+  color: #30bae7;
 }

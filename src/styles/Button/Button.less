@@ -1,16 +1,16 @@
 .Button {
-  color: #ffffff;
-  background: #eb7d4b;
-  font-family: 'Titillium Web', sans-serif;
+  color: @color-base;
+  background: @welcome-button;
+  font-family: @font-base;
   font-size: 18px;
   line-height: 1;
   padding: 26px 0;
-  margin: 0 auto;
+  margin: @margin_center;
   display: block;
   text-align: center;
   text-decoration: none;
   width: 293px;
-  text-transform: uppercase;
+  text-transform: @text-upper;
   border-radius: 5px;
   position: relative;
   overflow: hidden;
@@ -21,14 +21,14 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0,0,0,0.3);
+    background: @button-after;
     height: 4px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
 
   &--portfolio {
-    background: #17c2a4;
+    background: @portfolio-button;
 
     &::after {
       content: "";
@@ -36,7 +36,23 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      background: rgba(0,0,0,0.3);
+      background: @button-after;
+      height: 4px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+
+  &--getInTouch {
+    background: @getInTouch-button;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: @button-after;
       height: 4px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;

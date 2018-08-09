@@ -1,7 +1,7 @@
 .Title {
   font-family: 'Titillium Web', sans-serif;
   font-size: 42px;
-  color: #ffffff;
+  color: @color-base;
   text-align: center;
 
   &-line {
@@ -26,12 +26,12 @@
     text-transform: @text-upper;
     font-size: 41.29px;
     letter-spacing: 3.3px;
-    color: #3c4761;
+    color: @title-team;
   }
 
   &--teamSmall {
     padding-top: 2px;
-    color: #3c4761;
+    color: @title-team;
     font-size: 18.58px;
     font-weight: normal;
     letter-spacing: 0.3px;
@@ -54,4 +54,27 @@
     letter-spacing: 0.3px;
   }
 
+  &--testimonials {
+    text-transform: @text-upper;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 4px;
+  }
+
+  &--testimonialsSmall {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+  }
+
+  &--getInTouch {
+    font-size: 40px;
+    text-transform: @text-upper;
+    letter-spacing: 4px;
+  }
+
+  &--getInTouchSmall {
+    font-size: 18px;
+    font-weight: normal;
+  }
 }
