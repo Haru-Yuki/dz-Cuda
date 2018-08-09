@@ -24,11 +24,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Button.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Button.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/Button/Button.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1012">
               <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetInTouch.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/GetInTouch/GetInTouch.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/base/_variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -56,12 +74,12 @@
         <option value="$PROJECT_DIR$/src/styles/Team/Team.less" />
         <option value="$PROJECT_DIR$/src/styles/Button/Button.less" />
         <option value="$PROJECT_DIR$/src/styles/Footer/Footer.less" />
-        <option value="$PROJECT_DIR$/src/styles/GetInTouch/GetInTouch.less" />
         <option value="$PROJECT_DIR$/src/styles/Line/Line.less" />
         <option value="$PROJECT_DIR$/src/styles/Portfolio/Portfolio.less" />
         <option value="$PROJECT_DIR$/src/styles/Testimonials/Testimonials.less" />
-        <option value="$PROJECT_DIR$/src/styles/base/_variables.less" />
         <option value="$PROJECT_DIR$/src/styles/Title/Title.less" />
+        <option value="$PROJECT_DIR$/src/styles/base/_variables.less" />
+        <option value="$PROJECT_DIR$/src/styles/GetInTouch/GetInTouch.less" />
       </list>
     </option>
   </component>
@@ -147,7 +165,21 @@
               <item name="dz site A" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dz site A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dz site A" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="Button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dz site A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dz site A" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="GetInTouch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dz site A" type="b2602c69:ProjectViewProjectNode" />
@@ -225,12 +257,12 @@
       <workItem from="1533204414375" duration="7322000" />
       <workItem from="1533219458929" duration="9023000" />
       <workItem from="1533289422685" duration="7852000" />
-      <workItem from="1533811724765" duration="18801000" />
+      <workItem from="1533811724765" duration="19114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84356000" />
+    <option name="totallyTimeSpent" value="84669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,8 +275,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.6529493" visible="true" weight="0.18229716" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.6529493" visible="true" weight="0.18229716" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info id="Grunt " order="5" sideWeight="0.34705076" side_tool="true" weight="0.18229716" />
@@ -252,7 +285,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49789253" weight="0.20588236" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="15" sideWeight="0.49736565" visible="true" weight="0.18518518" />
+      <window_info anchor="bottom" id="Terminal" order="15" sideWeight="0.49736565" visible="true" weight="0.18518518" />
       <window_info id="Favorites" order="6" sideWeight="0.50108933" side_tool="true" weight="0.18229716" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -670,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/GetInTouch/GetInTouch.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/Header/Header.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -733,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/base/_variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-595">
@@ -780,6 +799,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/base/_variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/GetInTouch/GetInTouch.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
         </state>
       </provider>
     </entry>
